@@ -21,6 +21,15 @@ body {
     position: relative;
 }
 
+.brand {
+    position: absolute;
+    top:20%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translateX(-50%);
+}
+
 .clock .number {
     --rotation:0;
     position: absolute;
@@ -88,3 +97,59 @@ body {
     height: 35%;
     background-color: black;
 }
+
+.clock .number1 .one {
+    transform: rotate(-30deg);
+    display: inline-block;
+}
+
+.clock .number2 .two {
+    transform: rotate(-60deg);
+    display: inline-block;
+}
+
+.clock .number3 .three {
+    transform: rotate(-90deg);
+    display: inline-block;
+}
+
+.clock .number4 .four {
+    transform: rotate(-120deg);
+    display: inline-block;
+}
+
+.clock .number5 .five {
+    transform: rotate(-150deg);
+    display: inline-block;
+}
+
+.clock .number6 .six {
+    transform: rotate(-180deg);
+    display: inline-block;
+}
+
+.clock .number7 .seven {
+    transform: rotate(-210deg);
+    display: inline-block;
+}
+
+.clock .number8 .eight {
+    transform: rotate(-240deg);
+    display: inline-block;
+}
+
+.clock .number9 .nine{
+    transform: rotate(-270deg);
+    display: inline-block;
+}
+
+.clock .number10 .ten {
+    transform: rotate(-300deg);
+    display: inline-block;
+}
+
+.clock .number11 .eleven {
+    transform: rotate(-330deg);
+    display: inline-block;
+}
+
